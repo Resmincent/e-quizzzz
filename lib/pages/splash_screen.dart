@@ -14,7 +14,7 @@ class SplashScreen extends StatelessWidget {
           Image.asset(
             'assets/images/quiz-logo.png',
             width: 300,
-            color: const Color.fromARGB(150, 255, 255, 255),
+            color: Colors.white12,
           ),
           const SizedBox(height: 80),
           const Text(
@@ -26,7 +26,7 @@ class SplashScreen extends StatelessWidget {
           ),
           const SizedBox(height: 30),
           OutlinedButton.icon(
-            onPressed: startQuiz, // Panggil fungsi switchScreen dari parent
+            onPressed: startQuiz,
             style: OutlinedButton.styleFrom(
               foregroundColor: Colors.white,
             ),
